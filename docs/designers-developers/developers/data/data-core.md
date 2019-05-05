@@ -138,6 +138,14 @@ _Returns_
 
 -   `?Object`: Record.
 
+_Example_
+
+In order to get a Wordpress post having 'post' as post_type value and '1' as post_ID value, you would use the following statement :
+
+```
+wp.data.select('core').getEntityRecord('postType', 'post', 1)
+```
+
 <a name="getEntityRecords" href="#getEntityRecords">#</a> **getEntityRecords**
 
 Returns the Entity's records.
